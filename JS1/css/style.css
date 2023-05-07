@@ -1,0 +1,101 @@
+.header {
+    background-color: white;
+}
+.LOGO {
+    max-width: 100%;
+    width: 160px;
+    height: 120px;
+    float: left;
+}
+
+.div {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header h1 {
+    text-align: center;
+    color: black;
+    font-size: 3.2rem;
+    font-weight: lighter;
+    font-family: "Raleway", sans-serif;
+}
+
+.header span {
+    text-align: center;
+    font-weight: bold;
+    font-size: 3.4rem;
+    color: #154360;
+}
+.Menu  {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    background-color: #0b5ed7;
+    font-family: "Raleway", sans-serif;
+    font-size: 1.6rem;
+    text-decoration: underline;
+    text-decoration: none;
+    list-style:none
+    
+}
+.Menu a {
+    color: white;
+}
+.imagen{
+    max-width:100%;
+}
+
+.alerta{
+    font-weight:700;
+}
+body{
+    background-color: #E3D8D6;
+    overflow-x: hidden;
+}
+.modal-contenedor{
+    display:flex;
+    align-items: center;
+    gap:2rem;
+}
+.img-carrito{
+    width:200px;
+    padding:20px;
+} 
+.modal-content{
+    background-color: #E3D8D6;
+}
+.parrafo{
+    font-weight: 900;
+    font-style: italic;
+}
+#precioTotal{
+    margin:0;
+    padding:0;
+}
+.boton{
+    opacity:0;
+}
+
+#contenedor {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.filtro {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    margin-left: 30px;
+    
+}
+
+#todos, #MMORPG, #MOBA, #ARPG {
+    background-color: white;
+    color: #0b5ed7;
+    border-radius: 20px;
+    border-width: 5px;
+    border-color: #0b5ed7;
+}
